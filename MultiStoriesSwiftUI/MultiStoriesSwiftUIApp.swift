@@ -11,7 +11,7 @@ import SwiftUI
 struct MultiStoriesSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(storyViews: [SomeView(), SomeView(), SomeView(), SomeView(), SomeView()])
         }
     }
 }
